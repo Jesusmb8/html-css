@@ -12,17 +12,33 @@
 <body>
     <section>
         <h1>Jesús Moreno</h1>
+        <h3>Mi portfolio personal</h3>
+        <picture>
+            <source media="(min-width: 1400px)" srcset="./images/web-dev.jpg">
+            <source media="(min-width: 768px)" srcset="./images/web-dev-m.jpg">
+            <img srcset="./images/images.jpeg">
 
+        </picture>
     </section>
+    <hr>
+    <!-- projects -->
     <section>
-        <!-- projects -->
+        <h6>TODO: PROYECTOS</h6>
     </section>
+    <hr>
+    <!-- skills -->
     <section>
-        <!-- skills -->
+        <h4>Skills</h4>
+        <ul>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Java</li>
+        </ul>
     </section>
+    <hr>
     <!-- Contact -->
     <section>
-        <form action="" method="post">
+        <form action="formulario.html" method="post" novalidate>
             <div>
                 <label for="name">Nombre</label>
                 <input type="text" name="name" id="name" required placeholder="Introduzca su nombre">
@@ -65,12 +81,17 @@
             </div> <button type="submit">Enviar</button>
         </form>
     </section>
-
+    <hr>
     <footer>
-
-        <a href="https://www.facebook.com/"><button>facebook</button></a>
-        <a href="https://www.linkedin.com/"><button>linkedin</button></a>
-        <a href="https://www.github.com/"><button>github</button></a>
+        <a href="https://www.facebook.com/"  rel="noreferrer noopener">
+            <button>facebook</button>
+        </a>
+        <a href="https://www.linkedin.com/" rel="noreferrer noopener">
+            <button>linkedin</button>
+        </a>
+        <a href="https://www.github.com/" rel="noreferrer noopener">
+            <button>github</button>
+        </a>
     </footer>
 </body>
 
