@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesús
+    </title>
+</head>
+
+<body>
+    <section>
+        <h1>Jesús Moreno</h1>
+
+    </section>
+    <section>
+        <!-- projects -->
+    </section>
+    <section>
+        <!-- skills -->
+    </section>
+    <!-- Contact -->
+    <section>
+        <form action="" method="post">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" required placeholder="Introduzca su nombre">
+            </div>
+            <div>
+                <label for="surname">Apellidos</label>
+                <input type="text" name="surname" id="surname" required placeholder="Introduzca su apellido">
+            </div>
+            <div>
+                <label for="tele">Teléfono</label>
+                <input type="tele" name="tele" id="tele" required>
+            </div>
+            <div>
+                <label for="gitUser">Usuario de Github</label>
+                <input type="text" name="gitUser" id="gitUser" required
+                    placeholder="Introduzca su usuario (@usermaname)" pattern="@([A-Za-z0-9_]{1,15})">
+            </div>
+            <fieldset>
+                <legend>¿Cómo me conociste?</legend>
+                <div>
+                    <input type="radio" id="uni" name="how" value="universidad" checked>
+                    <label for="uni"> Universidad</label>
+                </div>
+                <div>
+                    <input type="radio" id="kickoff" name="how" value="kickoff">
+                    <label for="kickoff">Keepcoding kick-off</label>
+                </div>
+                <div>
+                    <input type="radio" id="colegio" name="how" value="colegio">
+                    <label for="colegio">Colegio</label>
+                </div>
+                <div>
+                    <input type="radio" id="github" name="how" value="github">
+                    <label for="github">En Github</label>
+                </div>
+            </fieldset>
+            <label for="description">Descripción</label>
+            <div>
+                <textarea name="description" id="description" maxlength="180" cols="30" rows="10" required></textarea>
+            </div> <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+
+        <a href="https://www.facebook.com/"><button>facebook</button></a>
+        <a href="https://www.linkedin.com/"><button>linkedin</button></a>
+        <a href="https://www.github.com/"><button>github</button></a>
+    </footer>
+</body>
+
+</html>
