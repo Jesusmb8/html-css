@@ -1,0 +1,24 @@
+/* CSS for navbar */
+.navbar {
+    display: none;
+}
+
+
+
+@media screen  and (min-width:600px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aqua;
+    }
+
+    .navbar .list {
+        display: flex;
+    }
+
+    .navbar .list .list-item a {
+        margin-left: 10px;
+        text-decoration: none;
+    }
+}
