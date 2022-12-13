@@ -11,7 +11,13 @@
         justify-content: space-between;
         align-items: center;
         background-color: aqua;
+        padding: 10px 30px;
+        font-size: 2rem;
+        position: sticky;
+        right: 0;
+        left: 0;
     }
+    
 
     .navbar .list {
         display: flex;

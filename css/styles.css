@@ -1,11 +1,16 @@
-.main {
-    /* width: 99%; */
+.image {
+    /* max-width: 100%; */
+}
+
+div.content {
+    width: 95%;
+    margin: 0 auto;
 }
 
 @media screen and (min-width:600px) {
-    .main {
+    div.content {
         width: 90%;
         margin: 10px auto;
-        max-width: 800px;
+        max-width: 768px;
     }
 }
