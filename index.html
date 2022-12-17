@@ -78,6 +78,9 @@
                         <a href="#slide2" class="carousel-dot"></a>
                         <a href="#slide3" class="carousel-dot"></a>
                     </div>
+                    <div>
+                        <a href="./detalle.html">Pulsa para ver los detalles</a>
+                    </div>
                 </section>
             </section>
             <hr>
@@ -121,7 +124,7 @@
                         <input type="text" name="gitUser" id="gitUser" required
                             placeholder="Introduzca su usuario (@usermaname)" pattern="@([A-Za-z0-9_]{1,15})">
                     </div>
-                    <fieldset>
+                    <fieldset class="element-form">
                         <legend>¿Cómo me conociste?</legend>
                         <div>
                             <input type="radio" id="uni" name="how" value="universidad" checked>
@@ -140,11 +143,18 @@
                             <label for="github">En Github</label>
                         </div>
                     </fieldset>
-                    <label for="description">Descripción</label>
-                    <div>
+                    <div class="element-form">
+                        <label for="description">Descripción</label>
                         <textarea name="description" id="description" maxlength="180" cols="30" rows="10"
                             required></textarea>
-                    </div> <button type="submit">Enviar</button>
+                    </div>
+                    <div class="break"></div> <!-- break -->
+                    <div class="element-button">
+                        <button type="submit">
+                            <span> Enviar</span>
+                            <i class="icon"><img src="./icons/send.png" alt=""></i>
+                        </button>
+                    </div>
                 </form>
             </section>
         </div>
