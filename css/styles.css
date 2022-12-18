@@ -264,12 +264,18 @@ h3.description {
     border-radius: 12px;
     background-color: var(--quarty-color);
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 i.icon {
     vertical-align: middle;
 }
-
+.align-middle{
+    vertical-align: middle;
+}
 /* footer */
 .footer {
     display: flex;
@@ -281,8 +287,4 @@ i.icon {
 footer>a {
     margin-right: 10px;
     text-decoration: none;
-}
-
-.align-center {
-    text-align: center;
 }
