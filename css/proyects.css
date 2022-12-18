@@ -1,4 +1,66 @@
-header.header{
+nav.navbar-detail {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-detail>div {
+    margin: 0px 20px;
+}
+
+.video {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: .2fr 2fr .2fr;
+    grid-template-rows: 10vh 30vh 50vh 10vh;
+    grid-template-areas:
+        "navbar navbar navbar"
+        ". header ."
+        ". main ."
+        "footer footer footer"
+    ;
+}
+
+.navbar-detail {
+    grid-area: navbar;
+}
+
+.header-detail {
+    grid-area: header;
+}
+
+.main-detail {
+    grid-area: main;
+}
+
+.footer-detail {
+    grid-area: footer;
+    text-align: center;
+}
+
+
+/* .grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 186px);
+  }
+  
+  .grid > * {
+    background-color: green;
+    height: 200px;
+  } */
+.proyects-wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, 200px); */
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    gap: 20px;
+
+}
+
+.proyect-item {
+    background-color: blue;
 }
