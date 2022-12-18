@@ -11,7 +11,7 @@
     scroll-behavior: smooth;
 }
 
-.carousel-slides > div {
+.carousel-slides>div {
     color: rgb(255, 255, 255);
     background-color: rgb(68, 68, 68);
     height: 100%;
@@ -20,6 +20,7 @@
 
 
 .carousel-slinks {
+    margin: 20px 0;
     display: flex;
     justify-content: center;
 }
@@ -31,4 +32,23 @@
     margin: 0 5px;
     display: block;
     border-radius: 50%;
+}
+
+#slide1 {
+    background-image: url("../images/slides/desarrollo_web.jpeg");
+    background-size: cover;
+}
+#slide2 {
+    background-image: url("../images/slides/realidad_aumentada.jpg");
+    background-size: cover;
+}
+#slide3 {
+    background-image: url("../images/slides/inteligencia_artificial.jpeg");
+    background-size: cover;
+}
+
+
+.proyect-title:hover{
+    font-size: 2rem;
+    transition: font-size 3s linear;
 }

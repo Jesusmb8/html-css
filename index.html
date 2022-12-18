@@ -30,21 +30,16 @@
     <!-- Poner etiqueta header y main para el content -->
     <main class="main">
         <section>
-            <h1>Jesús Moreno</h1>
-            <h3>Mi portfolio personal</h3>
-            <!-- <picture>
-                 <source media="(min-width: 1400px)" srcset="./images/web-dev.jpg">
-                <source media="(min-width: 768px)" srcset="./images/web-dev-m.jpg"> 
-                <img srcset="./images/images.jpeg">
-            </picture> -->
-            <picture>
-                <source media="(max-width: 800px)" class="image" srcset="
+            <h1 class="marginY10">Jesús Moreno</h1>
+            <h2 class="marginY10">Mi portfolio personal</h3>
+                <picture>
+                    <source media="(max-width: 800px)" class="image" srcset="
                     ./images/small/developerSmall_yhwwun_c_scale,w_200.webp 200w,
                     ./images/small/developerSmall_yhwwun_c_scale,w_428.webp 428w,
                     ./images/small/developerSmall_yhwwun_c_scale,w_659.webp 659w,
                     ./images/small/developerSmall_yhwwun_c_scale,w_800.webp 800w"
-                    src="./images/small/developerSmall_yhwwun_c_scale,w_800.webp" alt="developer small">
-                <source media="(min-width: 800px)" class="image" srcset="
+                        src="./images/small/developerSmall_yhwwun_c_scale,w_800.webp" alt="developer small">
+                    <source media="(min-width: 800px)" class="image" srcset="
                         ./images/large/developerLarge_bc0k3t_c_scale,w_790.jpg 790w,
                         ./images/large/developerLarge_bc0k3t_c_scale,w_1005.jpg 1005w,
                         ./images/large/developerLarge_bc0k3t_c_scale,w_1061.jpg 1061w,
@@ -52,61 +47,90 @@
                         ./images/large/developerLarge_bc0k3t_c_scale,w_1394.jpg 1394w,
                         ./images/large/developerLarge_bc0k3t_c_scale,w_1526.jpg 1526w,
                         ./images/large/developerLarge_bc0k3t_c_scale,w_2028.jpg 2028w"
-                    src="./images/large/developerLarge_bc0k3t_c_scale,w_2028.jpg" alt="123">
-                <img class="image" src="images/developerDefect.png" alt="developer">
-            </picture>
-
-
+                        src="./images/large/developerLarge_bc0k3t_c_scale,w_2028.jpg" alt="123">
+                    <img class="image" src="images/developerDefect.png" alt="developer">
+                </picture>
         </section>
         <hr>
         <!-- projects -->
         <div class="content">
             <section id="proyects">
-                <h6>TODO: PROYECTOS</h6>
+                <h3 class="marginY10">Mis proyectos</h3>
                 <section class="carousel-container">
                     <div class="carousel-slides">
-                        <div id="slide1">Slide 1
-                            <div>image</div>
-                            <div>
-                                <h3>título</h3>
-                            </div>
+                        <div id="slide1">
+                            <h4 class="proyect-title">
+                                Desarrollo web
+                            </h4>
                         </div>
-                        <div id="slide2">Slide 2</div>
-                        <div id="slide3">Slide 3</div>
+                        <div id="slide2">
+                            <h4 class="proyect-title">
+                                Inteligencia artificial
+                            </h4>
+                        </div>
+                        <div id="slide3">
+                            <h4 class="proyect-title">
+                                Realidad aumentada
+                            </h4>
+                        </div>
                     </div>
                     <div class="carousel-slinks">
                         <a href="#slide1" class="carousel-dot"></a>
                         <a href="#slide2" class="carousel-dot"></a>
                         <a href="#slide3" class="carousel-dot"></a>
                     </div>
-                    <div>
-                        <a href="./detalle.html">Pulsa para ver los detalles</a>
+                    <div class="carousel-details">
+                        <a href="./detalle.html">¿Quieres conocer más detalles? Haz click aquí.</a>
                     </div>
                 </section>
             </section>
             <hr>
             <!-- skills -->
             <section id="skills">
-                <h4>Skills</h4>
+                <h3 class="marginY10">Skills</h3>
                 <ul class="skill-container">
                     <li class="skill-item">
-                        <label for="python">Python</label>
-                        <progress id="python" class="progress-bar" value="32" max="100"> 32% </progress>
+                        <div> Java</div>
+                        <div class="progress-container">
+                            <div class="progress-bar-80"> 80%</div>
+                        </div>
+                    </li>        
+                    <li class="skill-item">
+                        <div> Python</div>
+                        <div class="progress-container">
+                            <div class="progress-bar-32"> 32%</div>
+                        </div>
                     </li>
                     <li class="skill-item">
-                        <label for="js">Javascript</label>
-                        <progress id="js" class="progress-bar" value="99" max="100"> 99% </progress>
+                        <div> Javascript</div>
+                        <div class="progress-container">
+                            <div class="progress-bar-20"> 20%</div>
+                        </div>
                     </li>
                     <li class="skill-item">
-                        <label for="java">Java</label>
-                        <progress id="java" class="progress-bar" value="80" max="100"> 80% </progress>
+                        <div> Inglés</div>
+                        <div class="progress-container">
+                            <div class="progress-bar-50"> 50%</div>
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <div> CSS</div>
+                        <div class="progress-container">
+                            <div class="progress-bar-50"> 50%</div>
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <div> Trabajo en equipo</div>
+                        <div class="progress-container">
+                            <div class="progress-bar-100"> 100%</div>
+                        </div>
                     </li>
                 </ul>
             </section>
             <hr>
             <!-- Contact -->
             <section>
-                <h3> Contacto</h3>
+                <h3 class="marginY10"> Contacto</h3>
                 <form id="contact" action="formulario.html" method="post">
                     <div class="element-form">
                         <label for="name">Nombre</label>
@@ -123,10 +147,12 @@
                     <div class="element-form">
                         <label for="gitUser">Usuario de Github</label>
                         <input type="text" name="gitUser" id="gitUser" required
-                            placeholder="Introduzca su usuario (@usermaname)" pattern="@([A-Za-z0-9_]{1,15})">
+                            placeholder="Usuario (@username)" pattern="@([A-Za-z0-9_]{1,15})">
                     </div>
                     <fieldset class="element-form">
-                        <legend>¿Cómo me conociste?</legend>
+                        <div>
+                            <legend>¿Cómo me conociste?</legend>
+                        </div>
                         <div>
                             <input type="radio" id="uni" name="how" value="universidad" checked>
                             <label for="uni"> Universidad</label>
@@ -151,9 +177,9 @@
                     </div>
                     <div class="break"></div> <!-- break -->
                     <div class="element-button">
-                        <button type="submit">
-                            <span> Enviar</span>
+                        <button type="submit" class="button">
                             <i class="icon"><img src="./icons/send.png" alt=""></i>
+                            <span> Enviar</span>
                         </button>
                     </div>
                 </form>
