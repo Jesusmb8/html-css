@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar">
-        <h1>JMB</h1>
+        <h4 class="initials">JMB</h4>
         <ul class="list">
             <li class="list-item">
                 <a href="#proyects"> Proyectos</a>
@@ -27,31 +27,31 @@
             </li>
         </ul>
     </nav>
-    <!-- Poner etiqueta header y main para el content -->
-    <main class="main">
+    <header class="header">
         <section>
-            <h1 class="marginY10">Jesús Moreno</h1>
-            <h2 class="marginY10">Mi portfolio personal</h3>
-                <picture>
-                    <source media="(max-width: 800px)" class="image" srcset="
-                    ./images/small/developerSmall_yhwwun_c_scale,w_200.webp 200w,
-                    ./images/small/developerSmall_yhwwun_c_scale,w_428.webp 428w,
-                    ./images/small/developerSmall_yhwwun_c_scale,w_659.webp 659w,
-                    ./images/small/developerSmall_yhwwun_c_scale,w_800.webp 800w"
-                        src="./images/small/developerSmall_yhwwun_c_scale,w_800.webp" alt="developer small">
-                    <source media="(min-width: 800px)" class="image" srcset="
-                        ./images/large/developerLarge_bc0k3t_c_scale,w_790.jpg 790w,
-                        ./images/large/developerLarge_bc0k3t_c_scale,w_1005.jpg 1005w,
-                        ./images/large/developerLarge_bc0k3t_c_scale,w_1061.jpg 1061w,
-                        ./images/large/developerLarge_bc0k3t_c_scale,w_1286.jpg 1286w,
-                        ./images/large/developerLarge_bc0k3t_c_scale,w_1394.jpg 1394w,
-                        ./images/large/developerLarge_bc0k3t_c_scale,w_1526.jpg 1526w,
-                        ./images/large/developerLarge_bc0k3t_c_scale,w_2028.jpg 2028w"
-                        src="./images/large/developerLarge_bc0k3t_c_scale,w_2028.jpg" alt="123">
-                    <img class="image" src="images/developerDefect.png" alt="developer">
-                </picture>
+            <h1 class="description">Jesús Moreno Belinchón</h1>
+            <h3 class="description">Bienvenido a mi portfolio personal</h3>
+            <picture>
+                <source media="(max-width: 800px)" class="image" srcset="
+                        ./images/small/developerSmall_yhwwun_c_scale,w_200.webp 200w,
+                        ./images/small/developerSmall_yhwwun_c_scale,w_428.webp 428w,
+                        ./images/small/developerSmall_yhwwun_c_scale,w_659.webp 659w,
+                        ./images/small/developerSmall_yhwwun_c_scale,w_800.webp 800w"
+                    src="./images/small/developerSmall_yhwwun_c_scale,w_800.webp" alt="developer small">
+                <source media="(min-width: 800px)" class="image" srcset="
+                            ./images/large/developerLarge_bc0k3t_c_scale,w_790.jpg 790w,
+                            ./images/large/developerLarge_bc0k3t_c_scale,w_1005.jpg 1005w,
+                            ./images/large/developerLarge_bc0k3t_c_scale,w_1061.jpg 1061w,
+                            ./images/large/developerLarge_bc0k3t_c_scale,w_1286.jpg 1286w,
+                            ./images/large/developerLarge_bc0k3t_c_scale,w_1394.jpg 1394w,
+                            ./images/large/developerLarge_bc0k3t_c_scale,w_1526.jpg 1526w,
+                            ./images/large/developerLarge_bc0k3t_c_scale,w_2028.jpg 2028w"
+                    src="./images/large/developerLarge_bc0k3t_c_scale,w_2028.jpg" alt="123">
+                <img class="image" src="images/developerDefect.png" alt="developer">
+            </picture>
         </section>
-        <hr>
+    </header>
+    <main class="main">
         <!-- projects -->
         <div class="content">
             <section id="proyects">
@@ -84,7 +84,7 @@
                     </div>
                 </section>
             </section>
-            <hr>
+
             <!-- skills -->
             <section id="skills">
                 <h3 class="marginY10">Skills</h3>
@@ -94,7 +94,7 @@
                         <div class="progress-container">
                             <div class="progress-bar-80"> 80%</div>
                         </div>
-                    </li>        
+                    </li>
                     <li class="skill-item">
                         <div> Python</div>
                         <div class="progress-container">
@@ -127,7 +127,7 @@
                     </li>
                 </ul>
             </section>
-            <hr>
+
             <!-- Contact -->
             <section>
                 <h3 class="marginY10"> Contacto</h3>
@@ -146,8 +146,8 @@
                     </div>
                     <div class="element-form">
                         <label for="gitUser">Usuario de Github</label>
-                        <input type="text" name="gitUser" id="gitUser" required
-                            placeholder="Usuario (@username)" pattern="@([A-Za-z0-9_]{1,15})">
+                        <input type="text" name="gitUser" id="gitUser" required placeholder="Usuario (@username)"
+                            pattern="@([A-Za-z0-9_]{1,15})">
                     </div>
                     <fieldset class="element-form">
                         <div>
@@ -186,16 +186,16 @@
             </section>
         </div>
     </main>
-    <hr>
+
     <footer class="footer">
         <a href="https://www.facebook.com/" rel="noreferrer noopener">
-            <img src="./icons/facebook.png" alt="">
+            <img src="./icons/facebook-white.png" alt="">
         </a>
         <a href="https://www.linkedin.com/in/jmorenobelinchon/" rel="noreferrer noopener">
-            <img src="./icons/linkedin.png" alt="">
+            <img src="./icons/linkedin-white.png" alt="">
         </a>
         <a href="https://github.com/Jesusmb8" rel="noreferrer noopener">
-            <img src="./icons/github.png" alt="">
+            <img src="./icons/github-white.png" alt="">
         </a>
     </footer>
 </body>

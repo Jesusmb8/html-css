@@ -8,17 +8,26 @@ nav.navbar-detail {
     margin: 0px 20px;
 }
 
-.navbar-text{
+a.navbar {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.navbar-text {
     display: none;
 }
+
 @media screen and (min-width:600px) {
-    .navbar-text{
+    .navbar-text {
         display: initial;
     }
-    .navbar-text-mobile{
+
+    .navbar-text-mobile {
         display: none;
     }
 }
+
 .video {
     text-align: center;
     margin: 0px auto;
@@ -44,9 +53,12 @@ nav.navbar-detail {
 
 .navbar-detail {
     grid-area: navbar;
+    background-color: var(--primary-color);
+    color: #ffffff;
 }
 
 .header-detail {
+    margin: 10px 0;
     grid-area: header;
     position: relative;
 }
@@ -58,31 +70,31 @@ nav.navbar-detail {
 .footer-detail {
     grid-area: footer;
     text-align: center;
+    background-color: var(--primary-color);
 }
-
-
 
 .proyects-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, auto));
     grid-gap: 20px;
-
 }
 
 .proyect-item {
-    margin: 10px 0;
-    border: 2px solid blue;
+    background-color: var(--quarty-color);
     border-radius: 15px;
     padding: 10px;
 }
 
 ul.list {
-    margin-top:10px;
+    margin-top: 10px;
     list-style: circle;
     list-style-position: inside;
     padding-left: 10px;
 }
 
-h3.title-proyects{
+h3.title-proyects {
     margin: 10px 0;
+    padding: 10px;
+    color: #ffffff;
+    background-color: var(--secondary-color);
 }
